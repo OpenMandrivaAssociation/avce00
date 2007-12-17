@@ -6,7 +6,6 @@ License:	BSD-like
 URL:		http://avce00.maptools.org/
 Source:		http://avce00.maptools.org/dl/%{name}-%{version}.tar.gz
 Group:		Sciences/Geosciences
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 AVCE00 is an Open Source (i.e. Free!) ANSI-C library that makes Arc/Info
