@@ -1,6 +1,6 @@
 Name:		avce00
 Version:	2.0.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Arc/Info (binary) Vector Coverage <-> E00 Utilities
 License:	BSD-like
 URL:		http://avce00.maptools.org/
