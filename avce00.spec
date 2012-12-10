@@ -58,3 +58,41 @@ install avc{delete,export,import,test} ex_avcwrite %{buildroot}/%{_bindir}
 %files -n %{name}-devel
 %{_includedir}/*.h
 %{_libdir}/avc.a
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.0-4mdv2011.0
++ Revision: 616671
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 2.0.0-3mdv2010.0
++ Revision: 423998
+- rebuild
+
+* Thu Jun 19 2008 Thierry Vignaud <tv@mandriva.org> 2.0.0-2mdv2009.0
++ Revision: 226207
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 2.0.0-1mdv2008.1
++ Revision: 135825
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Aug 21 2007 Buchan Milne <bgmilne@mandriva.org> 2.0.0-1mdv2008.0
++ Revision: 68206
+- New version 2.0.0
+- Add URL
+- Import avce00
+
+
+
+* Wed Jul 05 2006 Thierry Vignaud <tvignaud@mandriva.com> 1.3.0-3mdv2007.0
+- fix group
+
+* Thu Feb 16 2006 Nicolas Lécureuil <neoclust@mandriva.org> 1.3.0-2mdk
+- Fix Group (thanks plg)
+
+* Sun Jan 01 2006 Buchan Milne <bgmilne@mandriva.org> 1.3.0-1
+- initial Mandriva package
