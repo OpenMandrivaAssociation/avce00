@@ -3,7 +3,7 @@ Version:	2.0.0
 Release:	5
 Summary:	Arc/Info (binary) Vector Coverage <-> E00 Utilities
 License:	BSD-like
-URL:		http://avce00.maptools.org/
+URL:		https://avce00.maptools.org/
 Source:		http://avce00.maptools.org/dl/%{name}-%{version}.tar.gz
 Group:		Sciences/Geosciences
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
